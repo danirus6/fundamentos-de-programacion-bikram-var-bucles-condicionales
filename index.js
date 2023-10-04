@@ -14,11 +14,11 @@ let booleanoNot = !booleano1;
 let booleanoMix0 = (booleano1 || booleano2) && (booleano1 || (!booleano1 && !booleano2));
 
 //Operadores
-let incrementarDesp = 2;
-let letpostIncremento = incrementarDesp++;
+let resultadoDesp = 2;
+let letpostIncremento = resultadoDesp++;
 
-let incrementarAntes = 2;
-let preincremento = ++incrementarAntes;
+let resultadoAntes = 2;
+let preincremento = ++resultadoAntes;
 
 //Bucles
 let contarHasta10_2 = 0;
@@ -86,6 +86,6 @@ let sumaImpares = 0;
 
 for (let i = 0; i < 10; i++){
     if (i % 2 !== 0) {
-        sumaImpares += 1;
+        sumaImpares += i;
     }
 }
