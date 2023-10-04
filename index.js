@@ -14,11 +14,11 @@ let booleanoNot = !booleano1;
 let booleanoMix0 = (booleano1 || booleano2) && (booleano1 || (!booleano1 && !booleano2));
 
 //Operadores
-let resultadoDesp = 2;
-let letpostIncremento = resultadoDesp++;
+let incrementarAntes = 2;
+const resultadoDesp = incrementarAntes++;
 
-let resultadoAntes = 2;
-let preincremento = ++resultadoAntes;
+let incrementarDesp = 2;
+const resultadoAntes = ++incrementarDesp;
 
 //Bucles
 let contarHasta10_2 = 0;
