@@ -63,7 +63,7 @@ const valorSuma = MiNumeroFav + variableValorNumerico;
 
 const valorResta = MiNumeroFav - variableValorNumerico;
 
-const valorMultiplicacion = MiNumeroFav + variableValorNumerico;
+const valorMultiplicacion = MiNumeroFav * variableValorNumerico;
 
 const valorDivision = MiNumeroFav / 3;
 
