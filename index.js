@@ -65,7 +65,7 @@ const valorResta = MiNumeroFav - variableValorNumerico;
 
 const valorMultiplicacion = MiNumeroFav + variableValorNumerico;
 
-const valorDivision = minusDiv / 3;
+const valorDivision = MiNumeroFav / 3;
 
 
 //BUCLES
@@ -79,7 +79,7 @@ let preI = 0;
 let preJ = 0;
 
 for (let i = 0; i < 11; i++){
-    preI  = ++preJ;
+    preI += ++preJ;
 }
 
 let sumaImpares = 0;
